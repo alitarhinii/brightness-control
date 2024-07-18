@@ -7,7 +7,7 @@ import wmi
 # Initialize hand detector
 detector = HandDetector(detectionCon=0.7)
 
-# Initialize webcam
+# Initialize webcam to the size you want in my case i  put it to be a fullscreen display later
 wCam, hCam = 1366, 768
 cap = cv.VideoCapture(0)
 cap.set(3, wCam)
